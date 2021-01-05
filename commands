@@ -1,0 +1,7 @@
+youtube-dl https://www.youtube.com/playlist?list=PLW-dXebzrk5B6PAmm-h2PJz82j6_222Vu --embed-thumbnail -o '%(playlist)s/%(playlist_index)s - %(title)s - %(uploader)s - %(id)s.%(ext)s' -f 140 -i --no-continue --no-overwrites --download-archive downloaded.txt --add-metadata > log.txt
+
+youtube-dl https://www.youtube.com/playlist?list=PLW-dXebzrk5B6PAmm-h2PJz82j6_222Vu --get-id -i ## downloaded with errors in order, for comparison with full playlist
+
+youtube-dl https://www.youtube.com/playlist?list=PLW-dXebzrk5B6PAmm-h2PJz82j6_222Vu -i --flat-playlist --get-id > playlist.txt       ## full playlist
+
+youtube-dl https://www.youtube.com/playlist?list=PLW-dXebzrk5B6PAmm-h2PJz82j6_222Vu --get-id -i -o '%(title)s - %(uploader)s.%(ext)s' --get-filename > check_availability.txt           ## downloaded with name and errors in order
