@@ -6,7 +6,7 @@ youtube-dl https://www.youtube.com/playlist?list=PLW-dXebzrk5B6PAmm-h2PJz82j6_22
 
 awk '{print $2}' downloaded.txt > output.txt ## deleting youtube from downloaded.txt
 
-grep -vxFf output.txt playlist.txt > missing.txt
+grep -vxFf output.txt playlist.txt > missing.txt ## videos not downloaded
 
 rm output.txt
 
