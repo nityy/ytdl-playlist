@@ -5,4 +5,4 @@ Script to incrementally backup Youtube playlists with [youtube-dl](https://githu
 Tired of music videos becoming unavailable due to copyrights and stuff.
 
 ## To-Do
-- [ ] Generate unavailable videos IDs list
+- [x] Generate unavailable videos IDs list
