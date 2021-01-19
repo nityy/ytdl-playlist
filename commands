@@ -3,3 +3,11 @@ youtube-dl https://www.youtube.com/playlist?list=PLW-dXebzrk5B6PAmm-h2PJz82j6_22
 youtube-dl https://www.youtube.com/playlist?list=PLW-dXebzrk5B6PAmm-h2PJz82j6_222Vu -i --flat-playlist --get-id > playlist.txt       ## full playlist
 
 youtube-dl https://www.youtube.com/playlist?list=PLW-dXebzrk5B6PAmm-h2PJz82j6_222Vu --get-id -i -o '%(title)s - %(uploader)s.%(ext)s' --get-filename > check_availability.txt           ## downloaded with name and errors in order
+
+awk '{print $2}' downloaded.txt > output.txt ## deleting youtube from downloaded.txt
+
+grep -vxFf output.txt playlist.txt > missing.txt
+
+rm output.txt
+
+sort playlist.txt | uniq -cd ## find repeated songs
