@@ -1,4 +1,4 @@
-# ytdl-playlist
+# YT Playlist backup script
 Script to incrementally backup Youtube playlists with [youtube-dl](https://github.com/ytdl-org/youtube-dl/).
 
 ## Why?
