@@ -7,17 +7,7 @@
 [youtube:tab] Downloading page 5
 [youtube:tab] playlist Prakhar jain: Downloading 517 videos
 [download] Downloading video 1 of 517
-[youtube] BdEe5SpdIuo: Downloading webpage
-[youtube] BdEe5SpdIuo: Downloading js player bfb74eaf
-[youtube] BdEe5SpdIuo: Downloading js player bfb74eaf
-[youtube] BdEe5SpdIuo: Downloading thumbnail ...
-[youtube] BdEe5SpdIuo: Writing thumbnail to: Prakhar jain/Rocket Man (I Think It's Going To Be A Long, Long Time) - Elton John - Topic - BdEe5SpdIuo.webp
-[download] Destination: Prakhar jain/Rocket Man (I Think It's Going To Be A Long, Long Time) - Elton John - Topic - BdEe5SpdIuo.m4a
-[K[download]   0.0% of 4.35MiB at 29.48KiB/s ETA 02:31[K[download]   0.1% of 4.35MiB at 87.43KiB/s ETA 00:50[K[download]   0.2% of 4.35MiB at 202.23KiB/s ETA 00:21[K[download]   0.3% of 4.35MiB at 430.25KiB/s ETA 00:10[K[download]   0.7% of 4.35MiB at 410.01KiB/s ETA 00:10[K[download]   1.4% of 4.35MiB at 414.89KiB/s ETA 00:10[K[download]   2.9% of 4.35MiB at 372.49KiB/s ETA 00:11[K[download]   5.7% of 4.35MiB at 315.23KiB/s ETA 00:13[K[download]  11.5% of 4.35MiB at 347.93KiB/s ETA 00:11[K[download]  20.2% of 4.35MiB at 354.37KiB/s ETA 00:10[K[download]  28.3% of 4.35MiB at 342.99KiB/s ETA 00:09[K[download]  35.5% of 4.35MiB at 346.77KiB/s ETA 00:08[K[download]  43.6% of 4.35MiB at 347.87KiB/s ETA 00:07[K[download]  51.5% of 4.35MiB at 346.27KiB/s ETA 00:06[K[download]  59.1% of 4.35MiB at 356.14KiB/s ETA 00:05[K[download]  69.1% of 4.35MiB at 369.08KiB/s ETA 00:03[K[download]  79.6% of 4.35MiB at 382.00KiB/s ETA 00:02[K[download]  90.8% of 4.35MiB at 391.74KiB/s ETA 00:01[K[download] 100.0% of 4.35MiB at 400.50KiB/s ETA 00:00[K[download] 100% of 4.35MiB in 00:11
-[ffmpeg] Correcting container in "Prakhar jain/Rocket Man (I Think It's Going To Be A Long, Long Time) - Elton John - Topic - BdEe5SpdIuo.m4a"
-[ffmpeg] Adding metadata to 'Prakhar jain/Rocket Man (I Think It's Going To Be A Long, Long Time) - Elton John - Topic - BdEe5SpdIuo.m4a'
-[ffmpeg] Converting thumbnail "Prakhar jain/Rocket Man (I Think It's Going To Be A Long, Long Time) - Elton John - Topic - BdEe5SpdIuo.webp" to JPEG
-[atomicparsley] Adding thumbnail to "Prakhar jain/Rocket Man (I Think It's Going To Be A Long, Long Time) - Elton John - Topic - BdEe5SpdIuo.m4a"
+[download] Rocket Man (I Think It's Going To Be A Long, Long Time) has already been recorded in archive
 [download] Downloading video 2 of 517
 [download] Come On Eileen has already been recorded in archive
 [download] Downloading video 3 of 517
