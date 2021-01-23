@@ -7,5 +7,5 @@ rm output.txt ;\
 cp missing.txt playlist.txt downloaded.txt check_availability.txt log.txt ytdl-playlist/ ;\
 cd ytdl-playlist ;\
 git add . ;\
-git commit -m "latest run" ;\
+git commit -m "update" ;\
 git push origin main
