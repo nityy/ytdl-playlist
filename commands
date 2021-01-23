@@ -11,3 +11,13 @@ grep -vxFf output.txt playlist.txt > missing.txt ## videos not downloaded
 rm output.txt
 
 sort playlist.txt | uniq -cd ## find repeated songs
+
+cp missing.txt playlist.txt downloaded.txt check_availability.txt log.txt ytdl-playlist/
+
+cd ytdl-playlist
+
+git add .
+
+git commit -m "latest run"
+
+git push origin main

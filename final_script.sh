@@ -3,4 +3,9 @@ youtube-dl https://www.youtube.com/playlist?list=PLW-dXebzrk5B6PAmm-h2PJz82j6_22
 youtube-dl https://www.youtube.com/playlist?list=PLW-dXebzrk5B6PAmm-h2PJz82j6_222Vu --get-id -i -o '%(title)s - %(uploader)s.%(ext)s' --get-filename > check_availability.txt ;\
 awk '{print $2}' downloaded.txt > output.txt ;\
 grep -vxFf output.txt playlist.txt > missing.txt ;\
-rm output.txt
+rm output.txt ;\
+cp missing.txt playlist.txt downloaded.txt check_availability.txt log.txt ytdl-playlist/ ;\
+cd ytdl-playlist ;\
+git add . ;\
+git commit -m "latest run" ;\
+git push origin main
